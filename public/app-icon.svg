@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8bbcd9"/>
+      <stop offset="100%" stop-color="#5c94b6"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  
+  <!-- App Icon Base Squircle -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#bgGrad)"/>
+  
+  <!-- Task List Card -->
+  <rect x="100" y="96" width="312" height="320" rx="36" fill="#ffffff" filter="url(#shadow)"/>
+  
+  <!-- Checklist Item 1 (Completed with Sage Green Check) -->
+  <rect x="140" y="152" width="36" height="36" rx="10" fill="#5ebb94"/>
+  <path d="M149 170 l6 6 l13 -13" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="194" y="164" width="176" height="12" rx="6" fill="#94a3b8"/>
+  <line x1="190" y1="170" x2="374" y2="170" stroke="#64748b" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Checklist Item 2 (Completed) -->
+  <rect x="140" y="218" width="36" height="36" rx="10" fill="#5ebb94"/>
+  <path d="M149 236 l6 6 l13 -13" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="194" y="230" width="140" height="12" rx="6" fill="#94a3b8"/>
+  <line x1="190" y1="236" x2="338" y2="236" stroke="#64748b" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Checklist Item 3 (Active Item) -->
+  <rect x="140" y="284" width="36" height="36" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="194" y="296" width="160" height="12" rx="6" fill="#475569"/>
+
+  <!-- Checklist Item 4 (Active Item) -->
+  <rect x="140" y="350" width="36" height="36" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="194" y="362" width="120" height="12" rx="6" fill="#475569"/>
+</svg>
